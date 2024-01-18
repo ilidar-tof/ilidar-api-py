@@ -21,8 +21,9 @@ cv2.namedWindow(window_name, flags=cv2.WINDOW_NORMAL)
 while True:
     cv2.imshow(window_name, ilidar.Get_data())
     key_input = cv2.waitKey(10)
+
+    # Exit when 's' or 'S' was pressed
     if (key_input == 0x73) or (key_input == 0x53):
-        # Exit when 's' or 'S' was pressed
         break
 
 ilidar.Try_exit()
