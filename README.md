@@ -11,8 +11,8 @@ The following example project illustrate how to use our sensor functionalities a
 This repository has been built and tested with real sensors in the following environment:
 |OS|OpenCV-Python|
 |:-:|:----------:|
-|Windows 10| ? |
-|Ubuntu 20.04| ? |
+|Windows 10| 4.9.0 |
+|Ubuntu 20.04| 4.9.0 |
 
 ## How to Run
 Please check the belows to run the projects in your development environment.
