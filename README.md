@@ -1,11 +1,11 @@
 # iLidar API Example Projects
-The following example project illustrate how to use our sensor functionalities and help you integrate them into your application.
+The following example projects illustrate how to use our sensor functionalities and help you integrate them into your application.
 
 ## Project List
 |Project|Library|Description|Usage|
 |:---:|:---:|:---|:---|
-|Helloworld|Python|Illustrate how to use our sensor functionalities by using iLidar APIs|Sensor test|
-|OpenCV Example|[OpenCV]|Illustrate how to read the depth and intensity data and convert it to the image format|2D depth and intensity images|
+|Helloworld|Python|Illustrates how to use our sensor functionalities by using iLidar APIs|Sensor test|
+|OpenCV Example|[OpenCV]|Illustrates how to read the depth and intensity data and convert them into the image format|2D depth and intensity images|
 
 ## Development Environment
 This repository has been built and tested with real sensors in the following environment:
