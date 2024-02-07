@@ -7,7 +7,9 @@ ilidar = iTFS()
 
 # Wait for the sensor ready
 while True:
-    if (ilidar.Ready() == True):
+    print("Finding iTFS sensor...")
+    if ilidar.received_ip != "":
+        ilidar.Set_listening_IP(ilidar.received_ip)
         break
     else:
         time.sleep(0.1)
